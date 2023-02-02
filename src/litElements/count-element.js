@@ -1,6 +1,5 @@
-import { LitElement, html, customElement,css } from 'lit-element';
+import { LitElement, html ,css } from 'lit-element';
 
-// @customElement('count-element')
 class CountElement extends LitElement {
     static get styles() {
         return css`
@@ -47,6 +46,5 @@ class CountElement extends LitElement {
   }
 }
 
-// export default CountElement;
 customElements.define('count-element', CountElement)
 
