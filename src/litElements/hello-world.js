@@ -1,6 +1,6 @@
 import { LitElement, html, customElement } from 'lit-element';
 
-@customElement('hello-world')
+// @customElement('hello-world')
 class HelloWorld extends LitElement {
   render() {
     return html`
@@ -9,4 +9,5 @@ class HelloWorld extends LitElement {
   }
 }
 
-export default HelloWorld;
+// export default HelloWorld;
+customElements.define('hello-world', HelloWorld);
